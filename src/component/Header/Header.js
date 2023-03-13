@@ -9,6 +9,7 @@ export default function Header() {
         <NavLink to = "/Categories">Categories</NavLink>
         <NavLink to = "/Instruments">Instruments</NavLink>
         <NavLink to = "/About">About</NavLink>
+        
     </div>
   )
 }
