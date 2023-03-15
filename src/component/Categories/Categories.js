@@ -5,20 +5,12 @@ import Details from "../Details";
 import DataCategories from "../Data";
 
 export default function Categories() {
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  // const [selectedCategory, setSelectedCategory] = useState(null);
 
-  // useEffect(() => {
-  //   if (selectedCategory) {
-  //     DataCategories(selectedCategory).then((result) => {
-  //       setCateData(result);
-  //     });
-  //   }
-  // }, [selectedCategory]);
-
-  const handleCategoryClick = (e) => {
-    console.log("mmm", e.target.value);
-    setSelectedCategory(e);
-  };
+  // const handleCategoryClick = (e) => {
+  //   console.log("mmm", e.target.value);
+  //   setSelectedCategory(e);
+  // };
 
   return (
     // <NavLink to={`/Details`}>

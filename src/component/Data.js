@@ -42,7 +42,7 @@ const DataCategories = {
         ]
     },
     cat4: {
-        title: 'Genre cat4',
+        title: 'Genre D',
         description: 'This is genre D description.',
         songs: [
             {
@@ -50,7 +50,7 @@ const DataCategories = {
                 artist: 'Artist 1'
             },
             {
-                title: 'Song 2',
+                title: 'Song 3',
                 artist: 'Artist 2'
             }
         ]
