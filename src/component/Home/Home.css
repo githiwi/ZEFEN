@@ -1,0 +1,38 @@
+.front {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10rem;
+  align-items: center;
+  @media (min-width: 700px) {
+    display: none;
+  }
+}
+form {
+  background-color: #9bcbe6;
+  height: 30vh;
+  width: 30vh;
+  padding: 1.5rem;
+  border-radius: 5%;
+  box-shadow: 5px 5px 15px 5px black;
+}
+.front img {
+  width: 40vh;
+  height: 50vh;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px 5px black;
+}
+@media screen and (max-width: 43rem) {
+  header,
+  .front,
+  form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 43.5rem) and (max-width: 95rem) {
+  form {
+    height: 40vh;
+  }
+}

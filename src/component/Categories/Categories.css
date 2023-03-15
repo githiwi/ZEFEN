@@ -1,0 +1,23 @@
+.box1,
+.box2,
+.box3,.box4 {
+  width: 20vw;
+  height: 20vh;
+  border: 1rem ;
+  margin: 2rem;
+  border-radius: 5%;
+  box-shadow: 5px 5px 15px 5px black;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* .box1 button{
+  position: absolute;
+ display: flex;
+
+ justify-content: center;
+ align-items: center;
+} */
