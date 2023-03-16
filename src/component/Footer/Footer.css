@@ -1,5 +1,5 @@
 .footers {
-  background-color: #a79c7e;
+  background-color: #beafc2;
   text-align: center;
   padding: 2rem;
   position: fixed;
@@ -9,4 +9,7 @@
   @media (min-width: 700px) {
     display: none;
   }
+}
+h4 {
+  color: #574480;
 }

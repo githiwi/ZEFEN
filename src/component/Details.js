@@ -16,15 +16,23 @@ export default function Details() {
   return (
     <div className="detail">
       <h2>{selectedCategory.title}</h2>
+
       <p>{selectedCategory.description}</p>
       <ul>
-        {selectedCategory.songs && selectedCategory.songs.map((song, index) => (
-          <li key={index}>
-            {song.title} - {song.artist}
-          </li>
-        ))}
+        {selectedCategory.songs &&
+          selectedCategory.songs.map((song, index) => (
+            <li key={index}>
+              {song.title} - {song.artist}
+              <div className="artiImage">
+                <img src={song.image} />
+                <audio controls>
+                  <source src={song.music} type="audio/mpeg"></source>
+                </audio>
+              </div>
+            </li>
+          ))}
       </ul>
-{/* 
+      {/* 
       <h1>{console.log("arrrrrr", selectedCategory.songs)}</h1> */}
 
       {/* <ul>

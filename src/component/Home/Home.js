@@ -8,14 +8,13 @@ export default function Home() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(`submiting form with name : ${name} and email : ${email}`);
-    alert("thank you for subscribing")
+    alert("thank you for subscribing");
   }
 
-  
   return (
     <div className="front">
       <div>
-        <img src={eskesta} alt="dancing person" />
+        {/* <img src={eskesta} alt="dancing person" /> */}
       </div>
       <div>
         <form onSubmit={handleSubmit}>
@@ -43,7 +42,7 @@ export default function Home() {
           />
           <br />
           <br />
-          <button class="suscribe" >submit</button>
+          <button class="Suscribe">submit</button>
         </form>
       </div>
     </div>
