@@ -8,7 +8,10 @@ export default function Home() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(`submiting form with name : ${name} and email : ${email}`);
+    alert("thank you for subscribing")
   }
+
+  
   return (
     <div className="front">
       <div>
@@ -40,7 +43,7 @@ export default function Home() {
           />
           <br />
           <br />
-          <button class="suscribe">submit</button>
+          <button class="suscribe" >submit</button>
         </form>
       </div>
     </div>
