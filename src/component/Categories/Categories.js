@@ -16,9 +16,9 @@ export default function Categories() {
     // <NavLink to={`/Details`}>
     <div className="boxes">
       {Object.keys(DataCategories).map((key) => (
-        <li className="box1">
+        <button className={key}>
           <Link to={`/details/${key}`}>{DataCategories[key].title}</Link>
-        </li>
+        </button>
       ))}
       {/* <input className="box1" value="ambasel" onClick={handleCategoryClick}/>
         <button className="box1">Bati</button>

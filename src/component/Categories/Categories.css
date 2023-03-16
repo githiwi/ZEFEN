@@ -1,9 +1,10 @@
 .box1,
 .box2,
-.box3,.box4 {
+.box3,
+.box4 {
   width: 20vw;
   height: 20vh;
-  border: 1rem ;
+  border: 1rem;
   margin: 2rem;
   border-radius: 5%;
   box-shadow: 5px 5px 15px 5px black;
@@ -13,11 +14,37 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  text-align: center;
+  font-size: 2rem;
+  color: #323e42;
 }
-/* .box1 button{
-  position: absolute;
- display: flex;
+.box1 {
+  background-image: url("../../images/bati_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.box2 {
+  background-image: url("../../images/Anchihoye_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.box3 {
+  background-image: url("../../images/Anchihoye_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
- justify-content: center;
- align-items: center;
-} */
+.box4 {
+  background-image: url("../../images/Ambassel_scale.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+button {
+  font-size: large;
+  font-weight: 600;
+  color: blueviolet;
+}

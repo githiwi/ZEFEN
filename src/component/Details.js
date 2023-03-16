@@ -14,28 +14,29 @@ export default function Details() {
     setSelectedCategory(DataCategories[catname]);
   }, [catname]);
   return (
-    <div className="detail">
-      <h2>{selectedCategory.title}</h2>
+    <div className="detailrelative">
+      <div className="detail">
+        <h2>{selectedCategory.title}</h2>
 
-      <p>{selectedCategory.description}</p>
-      <ul>
-        {selectedCategory.songs &&
-          selectedCategory.songs.map((song, index) => (
-            <li key={index}>
-              {song.title} - {song.artist}
-              <div className="artiImage">
-                <img src={song.image} />
-                <audio controls>
-                  <source src={song.music} type="audio/mpeg"></source>
-                </audio>
-              </div>
-            </li>
-          ))}
-      </ul>
-      {/* 
+        <h3>{selectedCategory.description}</h3>
+        <ul>
+          {selectedCategory.songs &&
+            selectedCategory.songs.map((song, index) => (
+              <li key={index}>
+                {song.title} - {song.artist}
+                <div className="artiImage">
+                  <img src={song.image} />
+                  <audio controls>
+                    <source src={song.music} type="audio/mpeg"></source>
+                  </audio>
+                </div>
+              </li>
+            ))}
+        </ul>
+        {/* 
       <h1>{console.log("arrrrrr", selectedCategory.songs)}</h1> */}
 
-      {/* <ul>
+        {/* <ul>
        
         {songs.map((song) => (
           <li key={song.title}>
@@ -43,7 +44,8 @@ export default function Details() {
           </li>
         ))}
       </ul> */}
-      {/* <h2>{selectedCategory.songs[0]}</h2> */}
+        {/* <h2>{selectedCategory.songs[0]}</h2> */}
+      </div>
     </div>
   );
 }
