@@ -6,6 +6,7 @@ const DataCategories = {
             {
                 title: 'Song 1',
                 artist: 'Artist 1'
+                
             },
             {
                 title: 'Song 2',
