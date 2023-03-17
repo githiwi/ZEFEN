@@ -1,4 +1,4 @@
-.innstrumets1{
+.innstrumets1 {
   position: relative;
 }
 
@@ -6,12 +6,12 @@
   position: absolute;
   left: 68rem;
   display: flex;
-  flex-direction: row-reverse;
-  gap: 2rem;
+  flex-direction: row;
+  gap: 0.5rem;
   color: #574480;
 }
-img{
+img {
   border-radius: 60%;
-  background-color:#9388A2 ;
-  opacity: .5;
+  background-color: #9388a2;
+  opacity: 0.5;
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
-import eskesta from "../../images/eskesta.webp";
+
 export default function Home() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -13,9 +13,7 @@ export default function Home() {
 
   return (
     <div className="front">
-      <div>
-        {/* <img src={eskesta} alt="dancing person" /> */}
-      </div>
+      <div>{/* search input */}</div>
       <div>
         <form onSubmit={handleSubmit}>
           <h2>Subscribe Our Page </h2>

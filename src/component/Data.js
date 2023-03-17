@@ -20,13 +20,13 @@ const DataCategories = {
       "The Bati scale belongs to the group of Ethiopian scales because of the geographical location where it was born and its typical sound. ",
     songs: [
       {
-        title: "Song 1",
+        title: "Hagere ",
         artist: "Tedrose Kasahun ",
         image: TeddyAfro,
         music: teddy,
       },
       {
-        title: "Song 2",
+        title: "Nalegn",
         artist: "Aster Aweke",
         image: aster,
         music: asterewedalew,
@@ -39,13 +39,13 @@ const DataCategories = {
       "Ambassel ( Amharic አምባሰል ), also ambasäl , is a pentatonic tonal system used mainly in the historical regions of Begemder , Shewa and Wällo in the highlands of Ethiopia in the secular music of the Amhara .",
     songs: [
       {
-        title: "Song 1",
+        title: "Abay",
         artist: "Egegayew shibabaw",
         image: gigi,
         music: gigiabayie,
       },
       {
-        title: "Song 2",
+        title: "kuku",
         artist: "Kuku sebsebe",
         image: kukusebsebe,
         music: kukumotihen,
@@ -58,13 +58,13 @@ const DataCategories = {
       "Tizita songs are a popular music genre in Ethiopia and Eritrea. It's named after the Tizita Qañat mode/scale used in such songs. Tizita is known for strongly moving listener's feelings not only among the Amhara, but a large number of Ethiopians, in general.",
     songs: [
       {
-        title: "Song 1",
+        title: "engedaye nesh",
         artist: "Mehamud ahmed 1",
         image: mehamud,
         music: mahmoudegdayenesh,
       },
       {
-        title: "Song 2",
+        title: "Tizita",
         artist: "Maritu",
         image: maritu,
         music: tizita,
@@ -77,14 +77,14 @@ const DataCategories = {
       "Anchihoye kignt start with a free style introduction played by bass and Begena accompany the Masinqo which helps the singer in the tune.",
     songs: [
       {
-        title: "Song 1",
-        artist: "Egegayew shibabaw",
+        title: "Abay",
+        artist: "Egegayew Shibabaw",
         image: gigi,
         music: gigiabayie,
       },
       {
-        title: "Song 3",
-        artist: "Artist 2",
+        title: "Checheho",
+        artist: "Aster Aweke",
         image: aster,
         music: asterewedalew,
       },
