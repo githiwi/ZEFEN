@@ -5,12 +5,7 @@ import Details from "../Details";
 import DataCategories from "../Data";
 
 export default function Categories() {
-  // const [selectedCategory, setSelectedCategory] = useState(null);
 
-  // const handleCategoryClick = (e) => {
-  //   console.log("mmm", e.target.value);
-  //   setSelectedCategory(e);
-  // };
 
   return (
     // <NavLink to={`/Details`}>

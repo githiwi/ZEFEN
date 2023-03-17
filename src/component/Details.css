@@ -21,6 +21,9 @@ h2{
     text-align: center;
     padding: .5rem;
 }
+h3{
+  padding: 3rem;
+}
 .artiImage img {
   width: 10vw;
   height: 15vh;

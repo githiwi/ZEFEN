@@ -1,7 +1,14 @@
+.innstrumets1{
+  position: relative;
+}
+
 .innstrumets {
+  position: absolute;
+  left: 68rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   gap: 2rem;
+  color: #574480;
 }
 img{
   border-radius: 60%;

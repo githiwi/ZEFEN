@@ -6,6 +6,7 @@ import kirar from "../../images/kirar.jpeg";
 
 export default function Instruments() {
   return (
+    <div className="innstrumets1">
     <div className="innstrumets">
       <div>
         <img src={mesenko} alt="" />
@@ -42,6 +43,7 @@ export default function Instruments() {
           widespread musical instruments of the Amhara ethnic group
         </p>
       </div>
+    </div>
     </div>
   );
 }
