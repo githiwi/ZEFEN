@@ -6,22 +6,24 @@
   position: absolute;
   left: 70rem;
   color: #574480;
+  background-color: #BEAFC2;
   /* justify-content: center; */
   /* width: 50vw;
     height: 40vh; */
   border: 1rem;
   /* margin: 2rem; */
   padding: 5rem;
-  margin: 2rem 0;
-  border-radius: 5%;
-  box-shadow: 5px 5px 15px 5px #574480;
+  margin: 2rem 2rem;
+  /* border: 1px solid #574480 ; */
+   border-radius: 5%;
+  /* box-shadow: 2px 2px 10px 2px #574480;  */
 }
 
 h2{
     text-align: center;
     padding: .5rem;
 }
-h3{
+p{
   padding: 3rem;
 }
 .artiImage img {

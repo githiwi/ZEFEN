@@ -18,7 +18,7 @@ export default function Details() {
       <div className="detail">
         <h2>{selectedCategory.title}</h2>
 
-        <h3>{selectedCategory.description}</h3>
+        <p>{selectedCategory.description}</p>
         <ul>
           {selectedCategory.songs &&
             selectedCategory.songs.map((song, index) => (

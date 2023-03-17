@@ -1,13 +1,13 @@
-.box1,
-.box2,
-.box3,
-.box4 {
+.bati,
+.ambasel,
+.tizita,
+.anchihoye {
   width: 20vw;
   height: 20vh;
   border: 1rem;
   margin: 2rem;
   border-radius: 5%;
-  box-shadow: 5px 5px 15px 5px #574480;;
+  box-shadow: 5px 5px 15px 5px #574480;
 }
 
 .boxes {
@@ -18,27 +18,27 @@
   font-size: 2rem;
   color: #323e42;
 }
-.box1 {
+.bati {
   background-image: url("../../images/bati_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
-.box2 {
-  background-image: url("../../images/Anchihoye_2.png");
+.ambasel {
+  background-image: url("../../images/Ambassel_scale.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
-.box3 {
-  background-image: url("../../images/Anchihoye_2.png");
+.tizita {
+  background-image: url("../../images/tizitaminor_2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.box4 {
-  background-image: url("../../images/Ambassel_scale.gif");
+.anchihoye {
+  background-image: url("../../images/Anchihoye_2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

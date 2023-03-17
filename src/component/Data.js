@@ -14,9 +14,10 @@ import mahmoudegdayenesh from "../audio/mahmoudegdayenesh.mp3";
 import tizita from "../audio/tizita.mp3";
 
 const DataCategories = {
-  box1: {
+  bati: {
     title: " ባቲ",
-    description: "This is genre A description.",
+    description:
+      "The Bati scale belongs to the group of Ethiopian scales because of the geographical location where it was born and its typical sound. ",
     songs: [
       {
         title: "Song 1",
@@ -32,9 +33,10 @@ const DataCategories = {
       },
     ],
   },
-  box2: {
+  ambasel: {
     title: " አምባሰል",
-    description: "This is genre B description.",
+    description:
+      "Ambassel ( Amharic አምባሰል ), also ambasäl , is a pentatonic tonal system used mainly in the historical regions of Begemder , Shewa and Wällo in the highlands of Ethiopia in the secular music of the Amhara .",
     songs: [
       {
         title: "Song 1",
@@ -50,9 +52,10 @@ const DataCategories = {
       },
     ],
   },
-  box3: {
+  tizita: {
     title: " ትዝታ",
-    description: "This is genre C description.",
+    description:
+      "Tizita songs are a popular music genre in Ethiopia and Eritrea. It's named after the Tizita Qañat mode/scale used in such songs. Tizita is known for strongly moving listener's feelings not only among the Amhara, but a large number of Ethiopians, in general.",
     songs: [
       {
         title: "Song 1",
@@ -68,9 +71,10 @@ const DataCategories = {
       },
     ],
   },
-  box4: {
-    title: " አምባሰል",
-    description: "This is genre D description.",
+  anchihoye: {
+    title: " አንቺሆዬ",
+    description:
+      "Anchihoye kignt start with a free style introduction played by bass and Begena accompany the Masinqo which helps the singer in the tune.",
     songs: [
       {
         title: "Song 1",
