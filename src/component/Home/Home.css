@@ -10,10 +10,13 @@
 }
 form {
   background-color: #675383;
-  height: 30vh;
-  width: 30vh;
+  height: 43vh;
+  width: 40vh;
+  opacity: .5;
   padding: 1.5rem;
   border-radius: 5%;
+  justify-content: center;
+  align-items: center;
   box-shadow: 5px 5px 15px 5px black;
 }
 .front img {
@@ -22,7 +25,7 @@ form {
   border-radius: 50%;
   box-shadow: 5px 5px 15px 5px black;
 }
-@media screen and (max-width: 43rem) {
+/* @media screen and (max-width: 43rem) {
   header,
   .front,
   form {
@@ -35,4 +38,4 @@ form {
   form {
     height: 40vh;
   }
-}
+} */

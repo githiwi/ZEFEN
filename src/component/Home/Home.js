@@ -14,7 +14,9 @@ export default function Home() {
 
   return (
     <div className="front">
+       <div></div>
       <div>
+       
         <form onSubmit={handleSubmit}>
           <h2>Subscribe Our Page </h2>
           <label>Enter yourname</label>

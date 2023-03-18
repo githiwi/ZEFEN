@@ -4,6 +4,7 @@
   padding: 2rem;
   position: fixed;
   width: 100%;
+  opacity: .5;
   /* left: 0; */
   bottom: 0;
   @media (min-width: 700px) {

@@ -1,11 +1,14 @@
 .navs {
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #BEAFC2;
-  padding: 2rem;
+  background-color: #beafc2;
+
+  opacity: .5;
+  padding: 1.5rem;
   top: 0;
- 
+
   @media (min-width: 700px) {
     display: none;
   }
@@ -13,9 +16,9 @@
 
 .links {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   font-size: large;
 }
-h1{
-  color:#574480 ;
+h1 {
+  color: #574480;
 }

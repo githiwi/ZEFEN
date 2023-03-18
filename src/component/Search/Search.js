@@ -13,6 +13,7 @@ export default function Search({ details }) {
       artist.last_name
         .toLocaleLowerCase()
         .includes(searchField.toLocaleLowerCase())
+      
     );
   });
 
@@ -29,14 +30,14 @@ export default function Search({ details }) {
   }
   return (
     <section className="garamond">
-      <div className="navy georgia ma0 grow">
+      <div className="purple georgia ma0 grow">
         <h2 className="f2">Search Artist</h2>
       </div>
       <div className="pa2">
         <input
           className="pa3 bb br3 grow b--none bg-lightest-blue ma3"
           type="search"
-          placeholder="Search People"
+          placeholder="Search an artist"
           onChange={handleChange}
         />
       </div>

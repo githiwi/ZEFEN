@@ -23,7 +23,7 @@ export default function Instruments() {
       <div>
         <img src={kebero} alt="" />
         <h2>This is Kebero</h2>
-        <p>
+        <p style={{marginTop:"8rem"}}>
           A Kebero (Amharic: ከበሮ) is a double-headed, conicdal hand drum used in
           the traditional music of Eritrea, Sudan and Ethiopia. A piece of
           animal hide is stretched over each end of the instrument, thus forming
