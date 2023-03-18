@@ -1,10 +1,11 @@
 .footers {
-  background-color: #beafc2;
+  /* background-color: #beafc2; */
+  background-color: #EDD1B9;
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
   position: fixed;
   width: 100%;
-  opacity: .5;
+  opacity: .3;
   /* left: 0; */
   bottom: 0;
   @media (min-width: 700px) {

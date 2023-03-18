@@ -3,10 +3,13 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  /* background-image: url("../../images/"); */
+  background-repeat: no-repeat;
   background-color: #beafc2;
+  /* background-color: #EDD1B9; */
+opacity: .3;
 
-  opacity: .5;
-  padding: 1.5rem;
+  padding: .5rem;
   top: 0;
 
   @media (min-width: 700px) {
