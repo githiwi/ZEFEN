@@ -7,7 +7,9 @@ import Footer from "./component/Footer/Footer";
 import Header from "./component/Header/Header";
 import Home from "./component/Home/Home";
 import Instruments from "./component/Instruments/Instruments";
-import musicalGenre from "./component/Data";
+
+import Search from "./component/Search/Search";
+import artistDetailData from './component/Search/ArtistDetailData'
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path="/categories" element={<Categories />} />
         <Route path="/instruments" element={<Instruments />} />
         <Route path="/about" element={<About />} />
+        <Route path="/searchArtist" element={<Search details={artistDetailData} />}/>
         <Route path="/details/:catname" element={<Details/>}/>  
         <Route path="*" element={<div> 404 page not found </div>} />
       </Routes>

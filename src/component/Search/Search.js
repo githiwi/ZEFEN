@@ -5,7 +5,7 @@ import SearchList from "./SearchList";
 export default function Search({ details }) {
   const [searchField, setSearchField] = useState("");
 
-  const filteredArtist = details.filter((artist) => {
+  const filteredArtist = details?.filter((artist) => {
     return (
       artist.first_name
         .toLowerCase()
@@ -30,7 +30,7 @@ export default function Search({ details }) {
   return (
     <section className="garamond">
       <div className="navy georgia ma0 grow">
-        <h2 className="f2">Search your course</h2>
+        <h2 className="f2">Search Artist</h2>
       </div>
       <div className="pa2">
         <input

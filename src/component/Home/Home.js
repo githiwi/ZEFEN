@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import "./Home.css";
 
 export default function Home() {
@@ -13,7 +14,6 @@ export default function Home() {
 
   return (
     <div className="front">
-      <div>{/* search input */}</div>
       <div>
         <form onSubmit={handleSubmit}>
           <h2>Subscribe Our Page </h2>
