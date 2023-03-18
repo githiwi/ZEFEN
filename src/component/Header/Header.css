@@ -5,6 +5,7 @@
   background-color: #BEAFC2;
   padding: 2rem;
   top: 0;
+ 
   @media (min-width: 700px) {
     display: none;
   }

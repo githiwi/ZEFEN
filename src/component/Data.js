@@ -13,7 +13,7 @@ import kukumotihen from "../audio/kukumotihen.mp3";
 import mahmoudegdayenesh from "../audio/mahmoudegdayenesh.mp3";
 import tizita from "../audio/tizita.mp3";
 
-const DataCategories = {
+const musicalGenre = {
   bati: {
     title: " ባቲ",
     description:
@@ -91,4 +91,4 @@ const DataCategories = {
     ],
   },
 };
-export default DataCategories;
+export default musicalGenre;

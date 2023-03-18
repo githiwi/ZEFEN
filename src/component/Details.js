@@ -1,7 +1,7 @@
 
 import React ,{ useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import DataCategories from "./Data";
+import musicalGenre from "./Data";
 import "../component/Details.css";
 export default function Details() {
   
@@ -11,7 +11,7 @@ export default function Details() {
   let { catname } = useParams();
 
   useEffect(() => {
-    setSelectedCategory(DataCategories[catname]);
+    setSelectedCategory(musicalGenre[catname]);
   }, [catname]);
   return (
     <div className="detailrelative">
