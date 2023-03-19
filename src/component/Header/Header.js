@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="navs">
       <div className="rightOnNav">
-        <h1>What To Listen</h1>
+        <h1>ZEFEN ዘፈን</h1>
       </div>
       <div className="links">
         <NavLink to="/">Home</NavLink>

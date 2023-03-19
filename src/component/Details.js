@@ -3,25 +3,27 @@ import React ,{ useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import musicalGenre from "./Data";
 import "../component/Details.css";
+
 export default function Details() {
   
-  const [selectedCategory, setSelectedCategory] = useState({});
+  const [selectedGenre, setSelectedGenre] = useState({});
 
-  // TODO: read about useParam
-  let { catname } = useParams();
+
+  let { genrename } = useParams();
 
   useEffect(() => {
-    setSelectedCategory(musicalGenre[catname]);
-  }, [catname]);
+    setSelectedGenre(musicalGenre[genrename]);
+  }, [genrename]);
+  
   return (
     <div className="detailrelative">
       <div className="detail">
-        <h2>{selectedCategory.title}</h2>
+        <h2>{selectedGenre.title}</h2>
 
-        <p>{selectedCategory.description}</p>
+        <p>{selectedGenre.description}</p>
         <ul>
-          {selectedCategory.songs &&
-            selectedCategory.songs.map((song, index) => (
+          {selectedGenre.songs &&
+            selectedGenre.songs.map((song, index) => (
               <li key={index}>
                 {song.title} - {song.artist}
                 <div className="artiImage">

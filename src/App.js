@@ -21,7 +21,7 @@ function App() {
         <Route path="/instruments" element={<Instruments />} />
         <Route path="/about" element={<About />} />
         <Route path="/searchArtist" element={<Search details={artistDetailData} />}/>
-        <Route path="/details/:catname" element={<Details/>}/>  
+        <Route path="/details/:genrename" element={<Details/>}/>  
         <Route path="*" element={<div> 404 page not found </div>} />
       </Routes>
       <Footer/>
