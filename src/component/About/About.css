@@ -1,9 +1,12 @@
 .about {
   position: absolute;
-  left: 65rem;
+  top: 20%;
+  left: 20%;
+  right: 20%;
   color: #574480;
 }
 .about h1 {
+  margin-top: 0.1rem;
   text-align: center;
   padding: 2rem;
 }
